@@ -81,23 +81,18 @@ main{
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .store-item{
-  display: grid;
+  display: flex;
   gap: 10px;
   padding: 10px;
 }
-.discounted-price{
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 10px;
-}
-.discounted-price p{
-  text-decoration-line: line-through;
-}
-.discounted-price span{
-  color: red;
-  font-weight: bold;
-}
+
 .search-bar{
+  cursor: pointer;
+}
+.log-in {
+  cursor: pointer;
+}
+.shopping-bag{
   cursor: pointer;
 }
 /*FOOTER*/
