@@ -1,8 +1,34 @@
 import './style.css'
 
-const app = document.querySelector<HTMLDivElement>('#app')!
+type StoreItem = {
+    id: number,
+    type: string,
+    name: string,
+    image: string,
+    price: number,
+    discountedPrice?: number,
+    dateEntered: string,
+    stock: number
+}
 
-app.innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+type User = {
+    firstName: string,
+    lastName: string,
+    id: string,
+    password: string | number,
+    bag: []
+  }
+
+type State = {
+    storeItems: StoreItem[]
+    byType: string;
+    users: User[]
+}
+
+const state: State = {
+    storeItems: [],
+    byType: '',
+    users: [],
+}
+
+
