@@ -1,15 +1,14 @@
 {
-  "name": "modal-session-js",
+  "name": "hoxton-js-hollixton",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^4.6.4",
-    "vite": "^3.0.0"
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
   }
 }
