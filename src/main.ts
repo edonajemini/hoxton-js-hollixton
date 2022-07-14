@@ -17,39 +17,10 @@ type State = {
 }
 
 let state: State = {
-  store: [
-    { 
-      id: 1,
-      title: 'Shorts',
-      price: 3.2,
-      discountedPrice: 1,
-      image:
-        'https://cdn.shopify.com/s/files/1/1594/4353/products/Spring22-Mens-Session-Shorts-5inch-Denim.png?v=1646758994?q=50&auto=format&dpr=1&w=800&h=450&fit=crop'
-    },
-    {
-      id: 2,
-      title: 'Jeans',
-      price: 19.99,
-      image:
-        'https://media.gq-magazine.co.uk/photos/604a389378d908f40e6180ae/master/w_1920,h_1280,c_limit/Jeans_0006_Polo%20raplh%20lauren.jpg'
-    },
-    {
-      id: 3,
-      title: 'TV',
-      price: 2000.2,
-      discountedPrice: 8,
-      image:
-        'https://images.samsung.com/is/image/samsung/p6pim/uk/ue32t5300ckxxu/gallery/uk-fullhdtv-t5300-323348-ue32t5300ckxxu-421643304?$650_519_PNG$'
-    },
-    {
-      id: 4,
-      title: 'Radio',
-      price: 100.2,
-      discountedPrice: 40.5,
-      image:
-        'https://www.sony.co.uk/image/fc032c6f94c98631d6021a89dc17bfd7?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=2515&hei=1320'
-    }
-  ],
+ storeItems:[],
+ byType: '',
+ users: [],
+ selectedItem: null,
   page: 'Hollixton',
   modal: '',
   filter: 'short',
